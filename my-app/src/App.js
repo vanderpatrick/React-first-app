@@ -8,8 +8,12 @@ import './App.css';
 // import StatefulGreeting from './components/StatefulGreetingWithCallBack';
 // import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
 // import EventBinding from "./components/EventBinding";
-import ConditionalRenderingFunction from './components/ConditionalRenderingFunction';
-import ConditionalrenderingClass from './components/ConditionalrenderingClass';
+// import ConditionalRenderingFunction from './components/ConditionalRenderingFunction';
+// import ConditionalrenderingClass from './components/ConditionalrenderingClass';
+// import NestingComponents from './components/NestingComponents';
+// import MethodesAsPropsChild from './components/MethodsAsPropsChild';
+// import MethodsAsPropsParent from './components/MethodsAsPropsParent';
+import RenderingLists from './components/RenderingLists';
 function App() {
   return (
     <div className="App">
@@ -19,8 +23,12 @@ function App() {
       {/* <EventsClass /> */}
       {/* <EventsFunctional /> */}
       {/* <EventBinding /> */}
-      <ConditionalRenderingFunction connected={true} />
-      <ConditionalrenderingClass />
+      {/* <ConditionalRenderingFunction connected={true} /> */}
+      {/* <ConditionalrenderingClass /> */}
+      {/* <StatefulGreeting /> */}
+      {/* <NestingComponents /> */}
+      {/* <MethodsAsPropsParent /> */}
+      <RenderingLists />
     </div>
   );
 }
