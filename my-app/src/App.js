@@ -16,7 +16,9 @@ import './App.css';
 // import RenderingLists from './components/RenderingLists';
 // import LifeCycleCDM from './components/LifeCycleCDM';
 // import LifeCycleCDU from './components/LifeCycleCDU';
-import LifeCyclesCWU from './components/LifeCyclesCWU';
+// import LifeCyclesCWU from './components/LifeCyclesCWU';
+// import Controlledform from './components/Controlledform';
+import UncontrolledForm from './components/UncontrolledForm';
 function App() {
   return (
     <div className="App">
@@ -34,7 +36,9 @@ function App() {
       {/* <RenderingLists /> */}
       {/* <LifeCycleCDM /> */}
       {/* <LifeCycleCDU /> */}
-      <LifeCyclesCWU />
+      {/* <LifeCyclesCWU /> */}
+      {/* <Controlledform /> */}
+      <UncontrolledForm />
     </div>
   );
 }
