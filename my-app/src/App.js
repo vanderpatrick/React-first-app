@@ -13,7 +13,10 @@ import './App.css';
 // import NestingComponents from './components/NestingComponents';
 // import MethodesAsPropsChild from './components/MethodsAsPropsChild';
 // import MethodsAsPropsParent from './components/MethodsAsPropsParent';
-import RenderingLists from './components/RenderingLists';
+// import RenderingLists from './components/RenderingLists';
+// import LifeCycleCDM from './components/LifeCycleCDM';
+// import LifeCycleCDU from './components/LifeCycleCDU';
+import LifeCyclesCWU from './components/LifeCyclesCWU';
 function App() {
   return (
     <div className="App">
@@ -28,7 +31,10 @@ function App() {
       {/* <StatefulGreeting /> */}
       {/* <NestingComponents /> */}
       {/* <MethodsAsPropsParent /> */}
-      <RenderingLists />
+      {/* <RenderingLists /> */}
+      {/* <LifeCycleCDM /> */}
+      {/* <LifeCycleCDU /> */}
+      <LifeCyclesCWU />
     </div>
   );
 }
