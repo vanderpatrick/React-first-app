@@ -28,11 +28,13 @@ import './App.css';
 // import UseEffectCounter from './components/UseEffectCounter';
 // import UseEffectContainer from './components/UseEffectContainer';
 // import HttpRequests from './components/HttpRequests';
-import HttpPost from './components/HttpPost';
+import HTTPHooks from './components/HTTPHooks';
+// import HttpPost from './components/HttpPost';
 function App() {
   return (
     <div className="App">
-      <HttpPost />
+      <HTTPHooks />
+      {/* <HttpPost /> */}
       {/* <HttpRequests /> */}
       {/* <UseEffectContainer /> */}
       {/* <UseEffectCounter /> */}
