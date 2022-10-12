@@ -18,10 +18,27 @@ import './App.css';
 // import LifeCycleCDU from './components/LifeCycleCDU';
 // import LifeCyclesCWU from './components/LifeCyclesCWU';
 // import Controlledform from './components/Controlledform';
-import UncontrolledForm from './components/UncontrolledForm';
+// import UncontrolledForm from './components/UncontrolledForm';
+// import SearchBar from './components/SearchBar';
+// import HooksCounter from './components/HooksCounter';
+// import ControlledFormHooked from './components/ControlledFormHooked';
+// import UseStateWithArrays from './components/UseStateWithArrays';
+// import UseStateWithObjects from './components/useStateWithObjects';
+// import UseStatehook from './components/UseStatehook';
+// import UseEffectCounter from './components/UseEffectCounter';
+// import UseEffectContainer from './components/UseEffectContainer';
+// import HttpRequests from './components/HttpRequests';
+import HttpPost from './components/HttpPost';
 function App() {
   return (
     <div className="App">
+      <HttpPost />
+      {/* <HttpRequests /> */}
+      {/* <UseEffectContainer /> */}
+      {/* <UseEffectCounter /> */}
+      {/* <UseStatehook /> */}
+      {/* <UseStateWithObjects /> */}
+      {/* <UseStateWithArrays /> */}
       {/* <FunctionalGreeting /> */}
       {/* <FunctionalGreetingWithProps greeting="Nice to meet you!" name="Mike!" age="32 years old;"  /> */}
       {/* <StatefulGreetingWithPrevState /> */}
@@ -38,7 +55,10 @@ function App() {
       {/* <LifeCycleCDU /> */}
       {/* <LifeCyclesCWU /> */}
       {/* <Controlledform /> */}
-      <UncontrolledForm />
+      {/* <UncontrolledForm /> */}
+      {/* <SearchBar /> */}
+      {/* <HooksCounter /> */}
+      {/* <ControlledFormHooked /> */}
     </div>
   );
 }
